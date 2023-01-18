@@ -389,7 +389,8 @@ class cursor:
 
             elif a == "feno":
                 while True:
-                    art.tprint(Fore.BLUE + "Feno")
+                    print(Fore.BLUE + "")
+                    art.tprint("Feno")
                     print(Fore.RED + "")
                     n = input("password-onetime:")
                     if not n == keywords1.feno:
